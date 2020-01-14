@@ -1,0 +1,111 @@
+Parcialito 1
+Participantes VS CVE
+En la etapa de la encuesta, el analista entrevista al cliente con el fin de extraer requerimientos para poder analizarlos y plasmarlos en modelos libres de 
+ambiguedades en la etapa de analisis. La especificacion generada en esta etapa, es tomada por el diseñador quien en la etapa de diseño, la transforma en un
+dise�o arquitectonico que servira como base para los programadores en etapa de implantacion, quienes construyen los modelos fisicos. En el control de calidad,
+se verifican las pruebas de aceptacion asi como el sistema implementado para asegurarse de se esten cumpliendo con normas externas asi como los requerimientos
+que el usuario especifico.
+
+modelos VS analisis VS herramientas de modelado
+Un modelo es una representacion abstracta de la realidad. Se confeccionan modelos durante la fase de creacion de un sistema para enfocarse en propiedades importantes, hacer
+modificaciones a bajo coste y asegurarse de haber comprendido el ambiente del usuario. En la etapa de analisis, se confecciona el modelo escensial en donde se representa una
+solucion a las necesidades del usuario (requerimientos). Este modelo esta compuesto a su ves por otros dos, que son  el modelo ambiental y el modelo de comportamiento.
+Ambos emplean herramientas graficas de modelado. En el caso del modelo ambiental, el diagrama de contexto es un diagrama de flujo de datos en donde se represanta al sistema
+con las entidades externas con las que interactuara. El modelo de comportamiento ademas de usar DFDs para modelar funciones, hara uso de diagramas de entidad relacion para
+modelar datos en reposo y diagramas de transicion de estados para modelar los distintos estados a que puede sufrir el sistema o alguna de sus partes a traves del tiempo.
+
+encuesta VS CVE
+La encuentas es la primer etapa del ciclo de vida estructurado de un proyecto. En esta etapa, se entrevista al usuario para obtener informacion del futuro sistema
+establecer metas y objetivos, determinar si vale la pena automaticar el sistema y preparar el esquema que guiara el resto del proyecto. La salida de esta etapa
+sera un informe de costo beneficio que resulta estimativo ya que es en la etapa de analisis donde se confecciona con mas presiscion, una documentacion y la
+politica del usuario, ambas utilizadas en la etapa del analisis.
+
+Parcialito 2
+encuesta VS tipos de requisistos
+En la etapa de la encuesta, a traves de varias entrevistas que realiza el analista al usuario, son relevados los requerimientos. 
+Un requerimientos es una necesidad del cliente, que puede ser dividio en dos tipos: requerimientos funcionales que son comportamientos esperados por parte
+del sistema y no funcionales, que son restricciones impuestas al sistema o caracteristicas que debe tener. Estos requerimientos posteriormente pasaran a ser
+requisitos que son especificaciones de algo que se debe implementar para satisfacer los requeriemientos de usuario.
+
+Encuesta VS Entrevista
+Durante la etapa de la encuesta, se realizan varias entrevista al usuario del sistema con el fin de obtener informacion del comportamiento del sistema, verificar que el analista 
+haya entendido el comportamiento y poder realizar calculos de costo-beneficio. Existe la posibilidad de que haya mal entendidos durantela entrevista y esto afecte al desarollo 
+del sistema. Es por esta razon que es importante tener varias reuniones y con el usuario que recibira el sistema. Una de las formas mas comun de entrevista es un encuentro frente
+a frente. Sin embargo, existen formas alternativas para recopilar datos como pueden ser cuestionarios, investigacion o presentacion de proveedores de software que ya hayan construido
+sistemas aplicables a un contexto similar.
+
+tipos de requisitos VS modelo escensial
+El modelo esencial es un modelo de lo que el sistema debe hacer para satisfacer los requerimientos funcionales del usuario. Este modelo esta compuesto por el modelo ambiental
+que define la frontera que hay entre el sistema y el mundo exterior y el modelo de comportamiento que describe el comportamiento debe tener el sistema frente al 
+mundo exterior para interactuar existosamente.
+Un requeirmiento puede generar uno varios acontecimientos en la lista de acontecimientos del modelo ambiental que son estimulos a los cuales el sistema debera responder.
+La respuesta del sistema seran los distintos procesos modelados en los diagramas de flujo de datos del modelo de comportamiento.
+
+--------------------------------
+parcialito 7
+
+modelo de implantacion de usuario vs modelo escencial vs �modelo fisico?
+
+En la fase de la encuesta, son relevados los requerimientos funcionales por el modelo esencial. El modelo de implantacion del usuario es una extension del
+modelo esencial que incorpora los requisitos no funcionales. Ambos tipos de requerimientos son extraidos del cliente.
+El modelo fisico especifica como genstionar los recursos para contruir la realidad que dictan los dos modelos anteriormente mencionados.
+
+dise�o vs calidad
+
+la calidad es el grado de excelencia de algo y este concepto es intruducido en la etapa de dise�o. Esto se debe a que en esta etapa, se define la forma
+del objeto en cuestion, pudiendo asi evaluar la calidad del producto final.
+
+modelo fisico vs modelo logico
+El modelo logico es una especificacion de las funcionalidades que deberia contener el sistema para satisfacer las necesidades del cliente. Al ser una
+abstraccion, esta por encima del nivel de implementacion y no dependen de la tecnologia. Por su lado el modelo fisico que si depende de la tecnologia
+dicta como construir la realidad del modelo logico, lo que quiere decir que a partir de un modelo logico, se generan multiples versionados del modelo fisico
+que se adapten a cada tecnologia a la cual se quiera aplicar.
+
+parcialito 8
+pruebas de aceptacion vs control de calidad
+Concluida la etapa de analisis, el sistema no puede ser probado ya que no fue programado todavia, pero a partir de la especificacion estructurada generada
+en esta etapa, se puede empezar a dise�ar asi como generar pruebas de aceptacion junto al cliente, que luego pasaran a ser ejecutadas por el control de
+calidad en conjunto al manual del usuario generado en la etapada de descripcion de procedimientos.
+
+dise�o vs implantacion vs conversion de base de datos
+pagina 101
+En la etapa de dise�o, se asignan porciones de la especificacion creada en la etapa de analisis, tambien conocida como modelo escencial que es implementada en la etapa de programacion y la etapa de 
+conversion de bases de datos y en la implantacion. A su vez, en esta etapa se realiza una transformacion de los modelos de entidad relacion a un dise�o de base de datos.
+
+dise�o vs analisis
+En la etapa de dise�o, se genera el modelo esencial que es una descripcion formal de las funcionalidades que deberia implementar el sistema, para satisfacer
+las necesidades relevadas del usuario en la etapa de la encueta en forma de requerimientos funcionales y no funcionales. Sin embargo, no se tiene en cuenta
+la tecnologia con la que sera llevada a cabo el sistema. Es entonces en la etapa de dise�o, cuando se determina si es posible satisfacer los requerimientos
+especificados en la etapa anterior con la tecnologia actual.
+
+parcialito 10
+UML vs Herramientas de modelado del ciclo de vida estructurado de un proyecto
+
+En la etapa de modelado de requisitos el clasificador Actor permite la generalizaci�n entre actores,
+lo que genera que en el diagrama de casos de uso para modelar el contexto de un sistema se puedan
+organizar actores comunes. En el paradigma estructurado eso no es posible.
+El modelo de implantaci�n del usuario que aparece en el paradigma estructurado se ve en la
+transici�n entre componentes y artefacto de UML.
+El diagrama de clases del paradigma orientado a objetos puede servir para la implantaci�n. Las
+herramientas l�gicas del paradigma estructurado no son v�lidas para pasar al dise�o.
+En ambos paradigmas los requisitos no funcionales, que no son tenidos en cuenta para general el
+modelo l�gico son comunicados al equipo de dise�o. En el paradigma estructurado mediante el modelo de
+implantaci�n del usuario. En el paradigma orientado a objetos mediante notas (en los diagramas de casos
+de uso y en los diagramas de clases, por ejemplo).
+
+UML vs pilares del paradigma orientado a objetos
+
+Las clases son representadas en UMLde la siguiente manera:
+
+En el primer sector se coloca el nombre la clase, en el segundo los atributos y finalmete las operaciones
+Las relaciones entre clases se representan con flechas de diferentes tipos, cada una haciendo
+referencia a una relacion en concreto. El encapsulamiento puede ser visto a traves de adornos que representan la visibilidad de cada elemento de la clase.
+Los objetos son representados de la misma forma que las clases, con la diferencia de que su nombre estara subrayado.
+
+Diagramas vs pilares del paradigma orientado a objetos
+Las clases son modeladas en UML a traves del diagrama de clases. Los objetos seran modelados en el diagrama de objetos
+Ambos cubren la vista estatica del sistema.
+La vista de casos de uso es cubierta con el diagrama de casos de uso, en donde los actores son representados con monigotes (recomendados para entidades que sean
+personas) o clases (recomendado para representar algun otro tipo de entidad).
+La vista de implementacion es cubierta por el diagrama de componenetes. La vista de despliegue es cubierta por los diagrams de artefactos y el diagrama de despliegue.
+
