@@ -1,6 +1,6 @@
-# Metodologías de los sistemas I
+# Metodología de los sistemas I
 
-Este repositorio contiene todo el material usado durante la cursada de metodologías de los sistemas I.
+Este repositorio contiene todo el material usado durante la cursada de metodología de los sistemas I.
 
 ## Temas vistos
 
